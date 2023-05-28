@@ -15,7 +15,7 @@ const contact = () => {
 <div style={{textAlign: "center"}}>
 
       <h1>
-        Welcome to my contact page
+        Welcome to My Contact Page
       </h1>
 
       {/* <style jsx>

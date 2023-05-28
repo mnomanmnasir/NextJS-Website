@@ -39,7 +39,7 @@ const Navbar = () => {
                                             </a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="/product">
+                                            <a className="nav-link" href="/product" style={{fontWeight: 'bold'}}>
                                                 Products
                                             </a>
                                         </li>
