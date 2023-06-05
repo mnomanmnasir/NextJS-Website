@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Home from "../../next_bootstrap/src/app/page";
 
-
+  
 const index = () => {
   return (
     <>

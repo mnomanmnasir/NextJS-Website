@@ -2,7 +2,7 @@ import {useRouter} from "next/router"
 
 
 const pageNo = () => {
-    const router = useRouter();
+    const router = useRouter(); //using dynamic routing
     const pageNumber = router.query.pageNo;
     return (
         <>

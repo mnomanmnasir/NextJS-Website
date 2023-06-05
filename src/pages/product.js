@@ -49,14 +49,14 @@ const index = () => {
                   height={230}
                   priority
                 />
-                <div class="card-body">
+                <div className="card-body">
                   <h5 className="card-title">Nike Dunk Low</h5>
                   <h5 className="card-title">Colour Shown: Sail/Photon Dust/Light Smoke Grey</h5>
                   <h5 className="card-title">Men's Shoes</h5>
                   <h5 className="card-title">£109.95</h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikeShoes.webp'}
@@ -66,14 +66,14 @@ const index = () => {
                   height={230}
                   priority
                 />
-                <div class="card-body">
+                <div className="card-body">
                   <h5 className="card-title">Nike Air Max Plus</h5>
                   <h5 className="card-title">Colour Shown: White/University Blue/Black/University Gold  </h5>
                   <h5 className="card-title">Men's Shoes</h5>
                   <h5 className="card-title">£169.95</h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikecardShoes1.webp'}
@@ -85,7 +85,7 @@ const index = () => {
                 />
 
 
-                <div class="card-body">
+                <div className="card-body">
 
                   <h5 className="card-title">Nike Air Max Plus</h5>
                   <h5 className="card-title">   Colour Shown: White/University Blue/Black/University Gold  </h5>
@@ -93,7 +93,7 @@ const index = () => {
                   <h5 className="card-title">£169.95</h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikecardShoes2.webp'}
@@ -105,15 +105,15 @@ const index = () => {
                 />
 
 
-                <div class="card-body">
+                <div className="card-body">
 
                   <h5 className="card-title">Nike Air Max Plus</h5>
-                  <h5 className="card-title">   Colour Shown: White/University Blue/Black/University Gold  </h5>
+                  <h5 className="card-title">Colour Shown: White/University Blue/Black/University Gold  </h5>
                   <h5 className="card-title">Men's Shoes</h5>
                   <h5 className="card-title">£169.95</h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikecardShoes3.webp'}
@@ -123,7 +123,7 @@ const index = () => {
                   height={230}
                   priority
                 />
-                <div class="card-body">
+                <div className="card-body">
 
                   <h5 className="card-title">Nike Air Max Plus</h5>
                   <h5 className="card-title">   Colour Shown: White/University Blue/Black/University Gold  </h5>
@@ -132,7 +132,7 @@ const index = () => {
                 </div>
                         </div>
 
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikecardShoes4.webp'}
@@ -142,14 +142,14 @@ const index = () => {
                   height={230}
                   priority
                 />
-                <div class="card-body">
+                <div className="card-body">
                   <h5 className="card-title">Nike Dunk Low</h5>
                   <h5 className="card-title">Colour Shown: Sail/Photon Dust/Light Smoke Grey</h5>
                   <h5 className="card-title">Men's Shoes</h5>
                   <h5 className="card-title">£109.95</h5>
                 </div>
               </div>
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikecardShoes5.webp'}
@@ -161,7 +161,7 @@ const index = () => {
                 />
 
 
-                <div class="card-body">
+                <div className="card-body">
                   <h5 className="card-title">Nike Dunk Low</h5>
                   <h5 className="card-title">Colour Shown: Sail/Photon Dust/Light Smoke Grey</h5>
                   <h5 className="card-title">Men's Shoes</h5>
@@ -169,7 +169,7 @@ const index = () => {
                 </div>
               </div>
 
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikecardShoes6.webp'}
@@ -181,7 +181,7 @@ const index = () => {
                 />
 
 
-                <div class="card-body">
+                <div className="card-body">
                   <h5 className="card-title">Nike Dunk Low</h5>
                   <h5 className="card-title">Colour Shown: Sail/Photon Dust/Light Smoke Grey</h5>
                   <h5 className="card-title">Men's Shoes</h5>
@@ -190,7 +190,7 @@ const index = () => {
               </div>
 
 
-              <div class="card" style={{ width: "18rem;" }}>
+              <div className="card" style={{ width: "18rem" }}>
 
                 <Image
                   src={'/nikecardShoes7.webp'}
@@ -201,7 +201,7 @@ const index = () => {
                   priority
                 />
 
-                <div class="card-body">
+                <div className="card-body">
                   <h5 className="card-title">Nike Dunk Low</h5>
                   <h5 className="card-title">Colour Shown: Sail/Photon Dust/Light Smoke Grey</h5>
                   <h5 className="card-title">Men's Shoes</h5>
