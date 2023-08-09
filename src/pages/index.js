@@ -3,10 +3,17 @@ import Navbar from "../../components/Navbar";
 import styles from "../styles/index.module.css"
 import Head from "next/head";
 import Image from "next/image";
-import Home from "../../next_bootstrap/src/app/page";
+// import Home from "../../next_bootstrap/src/app/page";
+import AOS from 'aos';
+import { useEffect } from 'react'
+import 'aos/dist/aos.css';
 
-  
+
 const index = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <>
       <Head >
@@ -31,9 +38,13 @@ const index = () => {
           <div className='row'>
             <div className='col-10 mx-auto'>
               <div className='row'>
-                <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column'>
+                <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column'
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+                >
 
-                  <h1>
+                  <h1 >
                     Grow your business with <strong style={{ color: 'red' }}> Nike Shoes </strong>
                   </h1>
                   <h4 className="p-1">
@@ -42,30 +53,35 @@ const index = () => {
 
 
                   <div className="col-12">
-                    <button className="btn btn-outline-black" style={{ borderRadius: '10%', border: '2px solid black'
-  , borderRadius: '25px'}}  type="submit">
-  <Link href={'/product'} style={{color:'black', textDecoration:'none'}}>
-  Get Started
-  </Link>
-  </button>
+                    <button className="btn btn-outline-black" style={{
+                      borderRadius: '10%', border: '2px solid black'
+                      , borderRadius: '25px'
+                    }} type="submit">
+                      <Link href={'/Product'} style={{ color: 'black', textDecoration: 'none' }}>
+                        Get Started
+                      </Link>
+                    </button>
+                  </div>
                 </div>
-              </div>
 
-              <div className='col-lg-6 order-1 order-lg-2 header-img' >
+                <div data-aos="flip-left"
+                  data-aos-easin="linear"
+                  data-aos-duration="2000"
+                  className='col-lg-6 order-1 order-lg-2 header-img' >
 
-                <Image
-                  src="/homePicture.jpg"
-                  alt="homeImage"
-                  height={350}
-                  width={500}
-                  priority
-                />
+                  <Image
+                    src="/homePicture.jpg"
+                    alt="homeImage"
+                    height={350}
+                    width={500}
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section >
+      </section >
     </>
   )
 }
