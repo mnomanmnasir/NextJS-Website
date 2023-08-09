@@ -39,17 +39,17 @@ const Navbar = () => {
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" href="/product" style={{fontWeight: 'bold'}}>
+                                            <Link className="nav-link" href="/Product" style={{fontWeight: 'bold'}}>
                                                 Products
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" href="/about">
+                                            <Link className="nav-link" href="/About">
                                                 About
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" href="/contact">
+                                            <Link className="nav-link" href="/Contact">
                                                 Contact
                                             </Link>
                                         </li>
