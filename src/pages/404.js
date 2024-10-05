@@ -36,13 +36,13 @@ const Errorpage = () => {
                     </li>
                     <li>
 
-                        <Link href="/contact">
+                        <Link href={"/contact"}>
                             contact
                         </Link>
                     </li>
                     <li>
 
-                        <Link href="/product">
+                        <Link href={"/product"}>
                             Product
                         </Link>
                     </li>

@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import Image from "next/image";
 
 
-const index = () => {
+const Product = () => {
   return (
     <>
       <Head>
@@ -218,4 +218,4 @@ const index = () => {
   )
 }
 
-export default index;
+export default Product;

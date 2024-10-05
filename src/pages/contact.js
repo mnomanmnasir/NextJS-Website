@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Image from "next/image";
 
-const contact = () => {
+const Contact = () => {
   return (
     <>
 
@@ -76,4 +76,4 @@ const contact = () => {
   )
 }
 
-export default contact;
+export default Contact;

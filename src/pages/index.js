@@ -57,7 +57,7 @@ const index = () => {
                       borderRadius: '10%', border: '2px solid black'
                       , borderRadius: '25px'
                     }} type="submit">
-                      <Link href={'/Product'} style={{ color: 'black', textDecoration: 'none' }}>
+                      <Link href={'/product'} style={{ color: 'black', textDecoration: 'none' }}>
                         Get Started
                       </Link>
                     </button>
